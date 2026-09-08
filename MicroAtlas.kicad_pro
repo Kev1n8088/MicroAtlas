@@ -78,39 +78,23 @@
       ],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|68780514|34263553|cf77e300-09eb-4695-8b0c-c8eed59649d6|caf18027-ad49-43aa-9a71-ffbca3d7a5e8",
+          "copper_edge_clearance|68730000|34405006|cf77e300-09eb-4695-8b0c-c8eed59649d6|b4b73259-59be-4de3-8bb7-9071444491c3",
           ""
         ],
         [
-          "copper_edge_clearance|68780552|34263581|cf77e300-09eb-4695-8b0c-c8eed59649d6|e2ea73af-0176-489a-b445-23e08964ecd2",
+          "copper_edge_clearance|68730000|34405034|cf77e300-09eb-4695-8b0c-c8eed59649d6|e2ea73af-0176-489a-b445-23e08964ecd2",
           ""
         ],
         [
-          "copper_edge_clearance|75761717|34263554|cf77e300-09eb-4695-8b0c-c8eed59649d6|7063ca92-905c-4a90-8e96-f18b6e5f5de6",
+          "copper_edge_clearance|71833690|34445835|cf77e300-09eb-4695-8b0c-c8eed59649d6|693010e6-9dbc-4457-8664-1f1862abea74",
           ""
         ],
         [
-          "copper_edge_clearance|75780496|34263563|cf77e300-09eb-4695-8b0c-c8eed59649d6|b4b73259-59be-4de3-8bb7-9071444491c3",
+          "copper_edge_clearance|74521221|34405007|cf77e300-09eb-4695-8b0c-c8eed59649d6|7063ca92-905c-4a90-8e96-f18b6e5f5de6",
           ""
         ],
         [
-          "copper_edge_clearance|88419169|36758083|97fe374f-20ca-43c9-8214-00125194bb8d|23a1d0f9-ad4f-4944-8b3f-56de7ae3c62a",
-          ""
-        ],
-        [
-          "starved_thermal|70280505|36803550|8d4efa18-01a6-4efb-b8fb-62ff3548fae2|caf18027-ad49-43aa-9a71-ffbca3d7a5e8|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|75383162|56288370|8d4efa18-01a6-4efb-b8fb-62ff3548fae2|06f67683-176a-4083-aa2f-6c70c5efcb01|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|75500000|56000000|8d4efa18-01a6-4efb-b8fb-62ff3548fae2|6cf17e59-ba8d-43e4-a5a5-a983b2f0c52f|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|81548304|34957785|8d4efa18-01a6-4efb-b8fb-62ff3548fae2|f4e3c42e-e7f9-4b6a-816e-03ef69534f92|B.Cu",
+          "copper_edge_clearance|74540000|34405016|cf77e300-09eb-4695-8b0c-c8eed59649d6|caf18027-ad49-43aa-9a71-ffbca3d7a5e8",
           ""
         ]
       ],
@@ -162,7 +146,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "ignore",
@@ -314,7 +298,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.1"
+      "sch_revision": "2.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -562,7 +546,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MicroHighAltTracker.kicad_pro",
+    "filename": "MicroAtlas.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -741,18 +725,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "MicroHighAltTracker.kicad_sch",
-        "name": "Root",
+        "filename": "MicroAtlas.kicad_sch",
+        "name": "MicroAtlas",
         "uuid": "06d69dc3-b249-4331-a6e1-e3ea0af961a3"
       }
     ],
-    "used_designators": "C48-50,#PWR150-151,Q1",
+    "used_designators": "C43,C46-51,D1-2,D6,#PWR1-3,#PWR12-13,#PWR15-16,#PWR22,#PWR24-27,#PWR43,#PWR45,#PWR48-49,#PWR55-56,#PWR147-151,#PWR157,Q1-2,R5,R49,R54-55,R60,J2,J4-6,U1,U5-7,FB2",
     "variants": []
   },
   "sheets": [
     [
       "06d69dc3-b249-4331-a6e1-e3ea0af961a3",
-      "Root"
+      "MicroAtlas"
     ]
   ],
   "text_variables": {},
