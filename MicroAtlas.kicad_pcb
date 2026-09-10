@@ -5042,8 +5042,9 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 -1.16 0)
+			(at 0.668304 1.757785 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "f7e7599b-e4a4-4cb6-921d-9382a19892a3")
 			(effects
 				(font
@@ -6546,7 +6547,7 @@
 			(uuid "f20bdc0a-2795-4a54-9234-0569898c95e2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.975 -0.5 90)
+			(at -0.125 2.4 90)
 			(layer "B.Fab")
 			(uuid "507250f7-40c1-4844-be02-2836096ae8dc")
 			(effects
@@ -6796,6 +6797,7 @@
 		(property "Value" "NEO-F9P"
 			(at 0 -9.25 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "c8fad0ac-94da-494d-9440-c05dadfcc476")
 			(effects
 				(font
@@ -8212,7 +8214,7 @@
 		(descr "https://www.st.com/resource/en/datasheet/lsm6dsox.pdf")
 		(tags "SparkFun")
 		(property "Reference" "U6"
-			(at 0 1.75 90)
+			(at 0 2.156482 90)
 			(layer "B.Fab")
 			(uuid "226be08b-213c-4bcb-a2f6-9a91960782f5")
 			(effects
@@ -8227,6 +8229,7 @@
 		(property "Value" "LSM6DSV320XTR"
 			(at 0 -1.75 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "3adf0881-a35d-42b2-ba04-b3ed2baeef27")
 			(effects
 				(font
