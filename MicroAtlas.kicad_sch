@@ -5172,6 +5172,12 @@
 		(uuid "224bab6c-fc81-4d0d-8866-efd1c16039c6")
 	)
 	(junction
+		(at 190.5 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24ae0837-3316-4fc8-97b1-760a8fb8dd05")
+	)
+	(junction
 		(at 92.71 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5226,22 +5232,16 @@
 		(uuid "7aa1991f-c6e8-40ca-ab1b-3f63f3c8bba0")
 	)
 	(junction
+		(at 199.39 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cfd310c-87cb-47c3-bfc7-33ce0c60ba87")
+	)
+	(junction
 		(at 27.94 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d6fc590-7ac0-4e16-ad83-a9a5af2e12f9")
-	)
-	(junction
-		(at 199.39 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91626928-d070-46d4-bdce-ccf6dfcbae16")
-	)
-	(junction
-		(at 190.5 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "940a6b66-b4f0-4444-9081-cddc7e53688d")
 	)
 	(junction
 		(at 114.3 38.1)
@@ -5256,10 +5256,22 @@
 		(uuid "a43ce65d-f207-4eb5-a710-e603fe535840")
 	)
 	(junction
+		(at 199.39 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a75bd2db-4c78-4496-b2b0-dd441d072e22")
+	)
+	(junction
 		(at 88.9 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9cc132e-cbec-4594-b162-76f1e4055f29")
+	)
+	(junction
+		(at 236.22 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c87fc96b-d58f-48a6-90ec-7a8fc7c66440")
 	)
 	(junction
 		(at 80.01 38.1)
@@ -5469,7 +5481,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 34.29) (xy 201.93 34.29)
+			(xy 194.31 34.29) (xy 199.39 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5499,6 +5511,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 27.94) (xy 199.39 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b95348-ba43-4a5f-8925-f46840b129da")
+	)
+	(wire
+		(pts
 			(xy 125.73 140.97) (xy 129.54 140.97)
 		)
 		(stroke
@@ -5506,16 +5528,6 @@
 			(type default)
 		)
 		(uuid "29688df9-21b6-424e-971e-864d1b57ab76")
-	)
-	(wire
-		(pts
-			(xy 199.39 33.02) (xy 199.39 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c718cf4-a557-4d21-94c4-462ede6b69e5")
 	)
 	(wire
 		(pts
@@ -5679,7 +5691,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 99.06) (xy 67.31 99.06)
+			(xy 60.96 99.06) (xy 73.66 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5799,7 +5811,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 128.27) (xy 242.57 128.27)
+			(xy 232.41 128.27) (xy 236.22 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5869,13 +5881,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 34.29) (xy 199.39 34.29)
+			(xy 73.66 90.17) (xy 73.66 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75eb8d81-7b41-4768-a793-b44e3391335b")
+		(uuid "76c0c39b-7c89-4e63-9b15-7c5c4bbaf593")
 	)
 	(polyline
 		(pts
@@ -5999,6 +6011,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 17.78) (xy 199.39 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97eba0f7-f52b-4a5a-8153-6de39922db0a")
+	)
+	(wire
+		(pts
 			(xy 232.41 125.73) (xy 242.57 125.73)
 		)
 		(stroke
@@ -6059,6 +6081,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 135.89) (xy 236.22 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a26696a7-cc34-48c3-9282-49c577bc081d")
+	)
+	(wire
+		(pts
 			(xy 83.82 39.37) (xy 83.82 38.1)
 		)
 		(stroke
@@ -6089,7 +6121,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 36.83) (xy 190.5 36.83)
+			(xy 182.88 36.83) (xy 190.5 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6136,6 +6168,16 @@
 			(type default)
 		)
 		(uuid "abb7af50-3742-4db0-8da1-5c59fca818ed")
+	)
+	(wire
+		(pts
+			(xy 199.39 27.94) (xy 204.47 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b11c6a53-42c3-46a9-8a63-130cef3682f4")
 	)
 	(wire
 		(pts
@@ -6359,6 +6401,26 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 34.29) (xy 201.93 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1b5f726-63f3-45d3-94a5-b5df88b2d0bb")
+	)
+	(wire
+		(pts
+			(xy 236.22 128.27) (xy 242.57 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e259f378-a55e-442b-a6ae-5e7b328535e8")
+	)
+	(wire
+		(pts
 			(xy 278.13 62.23) (xy 278.13 60.96)
 		)
 		(stroke
@@ -6556,6 +6618,16 @@
 			(type default)
 		)
 		(uuid "f8c5c430-a2fe-4012-9b48-b61c8da9814f")
+	)
+	(wire
+		(pts
+			(xy 187.96 17.78) (xy 199.39 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa5c4c1b-7051-4b65-8f25-3c619f260be9")
 	)
 	(wire
 		(pts
@@ -7505,6 +7577,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 204.47 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12e75460-2a95-4fd0-9bb3-8779fc9f26da")
+		(property "Reference" "#PWR019"
+			(at 204.47 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 204.47 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 204.47 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "452460e4-8531-4903-a43d-903421f34d51")
+		)
+		(instances
+			(project "MicroAtlas"
+				(path "/06d69dc3-b249-4331-a6e1-e3ea0af961a3"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 102.87 48.26 0)
 		(unit 1)
@@ -7661,7 +7811,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 179.07 36.83 0)
+		(at 172.72 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7672,7 +7822,7 @@
 		(fields_autoplaced yes)
 		(uuid "14b9c8ed-9ad7-4da4-98c0-6a75b58bc80c")
 		(property "Reference" "#PWR010"
-			(at 179.07 40.64 0)
+			(at 172.72 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7683,7 +7833,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 179.07 31.75 0)
+			(at 172.72 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7693,7 +7843,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 36.83 0)
+			(at 172.72 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7704,7 +7854,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 36.83 0)
+			(at 172.72 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7715,7 +7865,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 179.07 36.83 0)
+			(at 172.72 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8046,6 +8196,87 @@
 			(project "MicroAtlas"
 				(path "/06d69dc3-b249-4331-a6e1-e3ea0af961a3"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 187.96 21.59 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "23e1fe01-5a51-4ed7-ba20-f0268c35aee6")
+		(property "Reference" "C52"
+			(at 189.23 25.146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 189.23 27.686 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 186.9948 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 187.96 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "53a27bf2-20db-4e7b-8047-244ed59041b7")
+		)
+		(pin "1"
+			(uuid "a780b649-0b6d-4022-9b1f-f4b8dc7c62f0")
+		)
+		(instances
+			(project "MicroAtlas"
+				(path "/06d69dc3-b249-4331-a6e1-e3ea0af961a3"
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -9489,7 +9720,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF X7R"
+		(property "Value" "47nF"
 			(at 153.67 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9550,7 +9781,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 184.15 36.83 0)
+		(at 177.8 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9560,7 +9791,7 @@
 		(dnp no)
 		(uuid "6a4d0ca9-17b8-4c38-ad85-b121077366b9")
 		(property "Reference" "JP1"
-			(at 182.626 29.718 0)
+			(at 176.276 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9570,7 +9801,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 182.626 26.924 0)
+			(at 176.276 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9580,7 +9811,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 184.15 36.83 0)
+			(at 177.8 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9591,7 +9822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 44.45 0)
+			(at 177.8 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9602,7 +9833,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 184.15 41.91 0)
+			(at 177.8 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9947,6 +10178,84 @@
 			(project "MicroAtlas"
 				(path "/06d69dc3-b249-4331-a6e1-e3ea0af961a3"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 223.52 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ecb3538-7211-4ab2-8b47-914c41b232e9")
+		(property "Reference" "#PWR018"
+			(at 223.52 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 223.52 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 223.52 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "472b4e50-8adf-4419-b19e-a1282d93284c")
+		)
+		(instances
+			(project "MicroAtlas"
+				(path "/06d69dc3-b249-4331-a6e1-e3ea0af961a3"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10543,6 +10852,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 187.96 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95ddfc57-5e11-4dd2-9c38-6f92374607c2")
+		(property "Reference" "#PWR057"
+			(at 187.96 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "947088ff-dcfb-43de-adad-4c6778a10ff8")
+		)
+		(instances
+			(project "MicroAtlas"
+				(path "/06d69dc3-b249-4331-a6e1-e3ea0af961a3"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 132.08 83.82 0)
 		(unit 1)
@@ -11017,166 +11404,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 199.39 25.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2e59358-7b9f-4076-9c02-9b5266cf1541")
-		(property "Reference" "#PWR011"
-			(at 199.39 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 199.39 20.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 199.39 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6bb22acc-43a8-4dfc-a058-099808087674")
-		)
-		(instances
-			(project "MicroAtlas"
-				(path "/06d69dc3-b249-4331-a6e1-e3ea0af961a3"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 199.39 29.21 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3bf1cde-3c27-48f6-be08-f8616e1d6d54")
-		(property "Reference" "R4"
-			(at 196.85 30.4801 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 196.85 27.9401 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 201.168 29.21 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 199.39 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5877299e-73c3-4d26-9345-4a145af117e1")
-		)
-		(pin "1"
-			(uuid "df31f362-c9a3-4a21-9239-c8db7cc403a0")
-		)
-		(instances
-			(project "MicroAtlas"
-				(path "/06d69dc3-b249-4331-a6e1-e3ea0af961a3"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 278.13 116.84 180)
 		(unit 1)
@@ -11334,6 +11561,88 @@
 			(project "MicroAtlas"
 				(path "/06d69dc3-b249-4331-a6e1-e3ea0af961a3"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 204.47 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acd0ce57-8685-4fd3-9e2c-2b8961463662")
+		(property "Reference" "R4"
+			(at 207.01 22.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 207.01 25.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 202.692 24.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.47 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3adefc78-0c42-4c51-b2d9-bd2ad0e2cc12")
+		)
+		(pin "1"
+			(uuid "e15516b3-0abc-4f80-ac2f-9875721cdfe1")
+		)
+		(instances
+			(project "MicroAtlas"
+				(path "/06d69dc3-b249-4331-a6e1-e3ea0af961a3"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11583,6 +11892,88 @@
 			(project "MicroAtlas"
 				(path "/06d69dc3-b249-4331-a6e1-e3ea0af961a3"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 86.36 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b904f2ef-ef2c-47ff-8fea-a337b43a2a85")
+		(property "Reference" "R8"
+			(at 71.12 87.6301 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 71.12 85.0901 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 75.438 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 73.66 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "99f61fc1-3259-43bb-b165-07df2e390913")
+		)
+		(pin "1"
+			(uuid "65cda205-c208-49a9-bda2-6b8568df6eba")
+		)
+		(instances
+			(project "MicroAtlas"
+				(path "/06d69dc3-b249-4331-a6e1-e3ea0af961a3"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -12068,6 +12459,84 @@
 			(project "MicroAtlas"
 				(path "/06d69dc3-b249-4331-a6e1-e3ea0af961a3"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 73.66 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cda73065-f082-4959-a46b-5e19cc0f6548")
+		(property "Reference" "#PWR017"
+			(at 73.66 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 73.66 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 73.66 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d00b415b-b579-4e42-b10b-ffc6a5e1cd35")
+		)
+		(instances
+			(project "MicroAtlas"
+				(path "/06d69dc3-b249-4331-a6e1-e3ea0af961a3"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -13473,6 +13942,88 @@
 			(project "MicroAtlas"
 				(path "/06d69dc3-b249-4331-a6e1-e3ea0af961a3"
 					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 236.22 132.08 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff1422d1-7528-4c51-a9a5-9aef9382a57f")
+		(property "Reference" "R7"
+			(at 233.68 133.3501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 233.68 130.8101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 237.998 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 236.22 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "170401c3-9b09-4810-b1b1-78903f63bbfc")
+		)
+		(pin "1"
+			(uuid "2c8bcaf0-a7b6-4b25-82d4-316ca5ecfa0a")
+		)
+		(instances
+			(project "MicroAtlas"
+				(path "/06d69dc3-b249-4331-a6e1-e3ea0af961a3"
+					(reference "R7")
 					(unit 1)
 				)
 			)
